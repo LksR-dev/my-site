@@ -1,4 +1,19 @@
-function addDataA(result) {}
+function addDataA(result) {
+  const templateEl = document.querySelector("#aboutme");
+  const container = document.querySelector(".aboutMe");
+
+  templateEl.content.querySelector(".aboutMe__img-tmp").src =
+    "http:" + result.image;
+
+  templateEl.content.querySelector(".aboutMe__text-title").textContent =
+    result.title;
+
+  templateEl.content.querySelector(".aboutMe__text-p").textContent =
+    result.description;
+
+  const clone = document.importNode(templateEl.content, true);
+  container.appendChild(clone);
+}
 
 function getDataA() {
   return fetch(
@@ -14,6 +29,7 @@ function getDataA() {
         const img = getImgA(imgId, json);
         return {
           title: i.fields.title,
+          description: i.fields.description,
           image: img.fields.file.url,
         };
       });
