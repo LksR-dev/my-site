@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./components/header.css" />
     <link rel="stylesheet" href="./components/form.css" />
     <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./pages/portfolio.css" />
     <!--SCRIPTS-->
     <script defer src="./components/header.js"></script>
@@ -23,5 +24,27 @@
     <script defer src="./pages/portfolio.js"></script>
     <title>Lucas Ruiz</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header__portfolio"></header>
+    <main class="portfolio">
+      <div class="portfolio__container-title">
+        <h2 class="portfolio__title">Mis proyectos</h2>
+      </div>
+      <div class="portfolio__container"></div>
+    </main>
+    <footer class="footer"></footer>
+
+    <template id="portfolio">
+      <div class="portoflio__card">
+        <div class="portfolio__card-top">
+          <img src="" alt="" class="portfolio__img" />
+        </div>
+        <div class="portfolio__card-bot">
+          <h3 class="portfolio__card-title"></h3>
+          <p class="portfolio__card-p"></p>
+          <a href="" class="portfolio__link" target="blank">Ver más</a>
+        </div>
+      </div>
+    </template>
+  </body>
 </html>
