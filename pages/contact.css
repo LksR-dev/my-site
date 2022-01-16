@@ -4,6 +4,23 @@
   padding: 0;
 }
 
+.header__contact {
+  height: 100px;
+  background: rgb(135, 188, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 188, 255, 0.7791491596638656) 0%,
+    rgba(149, 74, 255, 0.8071603641456583) 44%,
+    rgba(106, 0, 255, 0.36458333333333337) 100%
+  );
+}
 .form__contact-page {
   height: 100vh;
+  background: rgb(135, 188, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 188, 255, 0.7791491596638656) 0%,
+    rgba(149, 74, 255, 0.8071603641456583) 44%,
+    rgba(106, 0, 255, 0.36458333333333337) 100%
+  );
 }
