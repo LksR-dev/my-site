@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./components/header.css" />
     <link rel="stylesheet" href="./components/form.css" />
     <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./pages/services.css" />
     <!--SCRIPTS-->
     <script defer src="./components/header.js"></script>
@@ -23,5 +24,25 @@
     <script defer src="./pages/services.js"></script>
     <title>Lucas Ruiz</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header__services"></header>
+    <section class="services__page">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__container"></div>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <template id="services">
+      <div class="services__card">
+        <div class="services__card-top">
+          <img src="" alt="" class="services__img" />
+        </div>
+        <div class="services__card-bot">
+          <h3 class="services__card-title"></h3>
+          <p class="services__card-p"></p>
+        </div>
+      </div>
+    </template>
+  </body>
 </html>

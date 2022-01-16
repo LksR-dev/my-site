@@ -49,5 +49,8 @@ function main() {
       addDataS(w);
     }
   });
+
+  headerComponent(document.querySelector(".header__services"));
+  footerComponent(document.querySelector(".footer"));
 }
 main();

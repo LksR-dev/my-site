@@ -1,8 +1,25 @@
-.services {
+.services__page {
   width: 100%;
-  background-color: #fafafa;
+  background: rgb(221, 87, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 87, 87, 0.5718662464985995) 9%,
+    rgba(89, 89, 208, 0.9500175070028011) 47%,
+    rgba(0, 212, 255, 0.8379726890756303) 100%
+  );
   height: 100%;
   padding: 20px;
+}
+
+.header__services {
+  height: 100px;
+  background: rgb(221, 87, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 87, 87, 0.5718662464985995) 9%,
+    rgba(89, 89, 208, 0.9500175070028011) 47%,
+    rgba(0, 212, 255, 0.8379726890756303) 100%
+  );
 }
 
 .services__title {
