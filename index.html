@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="./components/header.css" />
     <link rel="stylesheet" href="./components/form.css" />
     <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/services.css" />
+    <link rel="stylesheet" href="./pages/contact.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <!--SCRIPTS-->
     <script defer src="./components/header.js"></script>
@@ -22,6 +25,8 @@
     <script defer src="./components/footer.js"></script>
     <script defer src="./welcome.js"></script>
     <script defer src="./aboutme.js"></script>
+    <script defer src="./pages/services.js"></script>
+    <script defer src="./pages/contact.js"></script>
     <script defer src="./pages/index.js"></script>
     <title>Lucas Ruiz</title>
   </head>
@@ -31,6 +36,11 @@
     <main class="hero"></main>
 
     <section class="aboutMe"></section>
+
+    <section class="services">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__container"></div>
+    </section>
 
     <template id="welcome">
       <div class="hero__content">
@@ -49,6 +59,18 @@
       <div class="aboutMe__text">
         <h2 class="aboutMe__text-title"></h2>
         <p class="aboutMe__text-p"></p>
+      </div>
+    </template>
+
+    <template id="services">
+      <div class="services__card">
+        <div class="services__card-top">
+          <img src="" alt="" class="services__img" />
+        </div>
+        <div class="services__card-bot">
+          <h3 class="services__card-title"></h3>
+          <p class="services__card-p"></p>
+        </div>
       </div>
     </template>
   </body>

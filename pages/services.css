@@ -1,0 +1,75 @@
+.services {
+  width: 100%;
+  background-color: #fafafa;
+  height: 100%;
+  padding: 20px;
+}
+
+.services__title {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 70px;
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .services__container {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.services__card {
+  height: 400px;
+  width: 55%;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .services__card {
+    width: 25%;
+    margin: 0 40px;
+  }
+}
+
+.services__card-top {
+  width: 100%;
+  height: 200px;
+}
+
+.services__img {
+  width: 100%;
+  height: 100%;
+}
+
+.services__card-bot {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 242, 0.4);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .services__card-bot {
+    border: none;
+  }
+}
+
+.services__card-title {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 10px 15px;
+}
+
+.services__card-p {
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
