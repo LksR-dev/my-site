@@ -95,17 +95,19 @@ a {
 
 .aboutMe__img {
   display: none;
-  width: 40%;
 }
 
 @media only screen and (min-width: 768px) {
   .aboutMe__img {
     display: inherit;
-    align-self: flex-end;
-    justify-content: flex-end;
-    width: 40%;
+    align-self: center;
+    justify-content: center;
     margin: 0 auto;
+    width: 40%;
   }
+}
+.aboutMe__img-tmp {
+  width: 100%;
 }
 
 .aboutMe__text {
